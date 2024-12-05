@@ -14,15 +14,15 @@ import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/
 import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBSiJOMS_ppEBx1ABfyorRzJZkkdOSvCus",
-    authDomain: "startin-5f8ee.firebaseapp.com",
-    databaseURL: "https://startin-5f8ee-default-rtdb.firebaseio.com", // Realtime Database URL
-    projectId: "startin-5f8ee",
-    storageBucket: "startin-5f8ee.appspot.com",
-    messagingSenderId: "242263881835",
-    appId: "1:242263881835:web:25b66d2b610cf14410d92e",
-    measurementId: "G-XF2ZZF8CFV"
-};
+            apiKey: "your_api_key",
+            authDomain: "your_project_id.firebaseapp.com",
+            databaseURL: "https://your_project_id.firebaseio.com",
+            projectId: "your_project_id",
+            storageBucket: "your_project_id.appspot.com",
+            messagingSenderId: "your_sender_id",
+            appId: "your_app_id",
+            measurementId: "your_measurement_id"
+        };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
